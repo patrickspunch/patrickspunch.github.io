@@ -5,29 +5,10 @@
 <link rel="stylesheet" href="css/style.css">
 <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&amp;subset=latin' rel='stylesheet' type='text/css'>
 
-<script type="text/javascript">
+<audio controls autoplay>
+  <source src="sound/Lasagne.mp3" type="audio/mp3">
+</audio>
 
-//INDEX VERSION ONLY
-
-//pages (use full url if in a different domain);
-
-var page1 = "lasagne.html";
-var page2 = "lasagne.html";
-var page3 = "lasagne.html";
-var page4 = "lasagne.html";
-
-//array (add all the pages inside [])
-var pages = [page1,page2,page3,page4];
-
-function showRandomPage()
-{
-    var num = Math.round(Math.random() * (pages.length-1));
-    window.location.href=pages[num];
-    console.log(num);
-};
-
-
-</script>
 </head>
 <body>
 
@@ -36,17 +17,17 @@ function showRandomPage()
 
 <div id="first">
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
+  <li><a class="active" href="index.html">Home</a></li>
   <li><a href="#">Pasta (under construction)</a></li>
   <li><a href="#">Potato (under construction)</a></li>
   <li><a href="#">Rice (under construction)</a></li>
   <li><a href="#">Junk (under construction)</a></li>
 </ul>
-<audio id="sound1" src="sound/feedme.wav" preload="auto"></audio>
-<ul id="notes" onmouseover="document.getElementById('sound1').play();">
-<a href="javascript:showRandomPage();">
+
+<ul id="notes">
+<a href="index.html">
     <li>
-        <p>Feed ME!!</p>
+        <p>NOT SATISFIED!!</p>
     </li>
 </a>
 <img src="img/click.png" style="width:40%">
@@ -54,9 +35,18 @@ function showRandomPage()
 </div>
 
  <div id="second">
-<h1>This is-a EpicLasa.ga<br></h1>
-<img src="img/epiclasaga.png" alt="EpicLasaga" height="600">
+<h1>LASAGNE!!!<br></h1>
+<img src="img/lasagne.jpeg" alt="lasagne" width="600">
+<br><br>
+<li>2 eetlepels olijfolie</li>
+<li>500g mager rundvlees gehakt</li>
+<li>Prosciutto van 90g</li>
+<li>Halve hoeveelheid van onze tomatensaus, of 800g passata</li>
+<li>300g verse lasagnebladen verpakken</li>
+<li>520g kant en klare saus</li>
+<li>125g mozzarella</li>
 </div>
+
 
 </div>
 

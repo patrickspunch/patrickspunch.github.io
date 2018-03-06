@@ -1,0 +1,113 @@
+body {
+	margin: 50px 0 0 0;
+background-color: #fff; 
+background-image: 
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
+	
+}
+* {
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+	font-size: 30pt;
+	text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.footer a:link{
+    color: yellow;
+}
+
+.footer a:visited{
+    color:yellow;
+}
+
+#wrapper {
+    width: 100%;
+    border: 0px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    margin-left: 80px;
+	margin-right: 80px;
+	width: 20%;
+    float:left;
+}
+#second {
+    float: left;
+}
+	
+#notes li {
+    position: relative;
+    width: 300px;
+    min-height: 100px;
+    margin: 25px auto;
+    padding: 60px 15px 15px 15px;
+	background: yellow;
+	list-style-type: none;
+    -webkit-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    box-shadow: 0 1px 2px #000;
+    -webkit-transform: rotate(-.5deg);
+    -moz-transform: rotate(-.5deg);
+    -o-transform: rotate(-.5deg);
+}
+
+#notes li:nth-child(even) {
+    -webkit-transform: rotate(.5deg);
+    -moz-transform: rotate(.5deg);
+    -o-transform: rotate(.5deg);
+}
+
+#notes li p {
+    text-align: center;
+    font: normal normal normal 40px/48px 'Reenie Beanie', Helvetica, Arial, sans-serif;
+    color: #000;
+    text-shadow: white 1px 1px 0px;
+    overflow:hidden;
+}
+
+#notes li::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 115px;
+    top: -15px;
+    width: 75px;
+    height: 25px;
+    z-index: 2;
+    background-color: rgba(243,245,228,0.5);
+    border: 2px solid rgba(255,255,255,0.5);
+    -webkit-box-shadow: 0 0 5px #888;
+    -moz-box-shadow: 0 0 5px #888;
+    box-shadow: 2px 2px 2px #000;
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+}
+
+#notes li:nth-child(even)::before {
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+audio { 
+   display:none;
+}
