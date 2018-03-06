@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EpicLasa.ga</title>
+<script type="text/javascript">
+
+//INDEX VERSION ONLY
+
+//pages (use full url if in a different domain);
+
+var page1 = "kaas.html";
+var page2 = "jam.html";
+var page3 = "basis.html";
+var page4 = "oddity.html";
+
+//array (add all the pages inside [])
+var pages = [page1,page2,page3,page4];
+function showRandomPage()
+{
+    var num = Math.round(Math.random() * (pages.length-1));
+    window.location.href=pages[num];
+    console.log(num);
+};
+</script>
+</head>
+<body>
+
+<h1>This is a EpicLasa.ga</h1>
+<p>This is a EpicLasa.ga</p>
+
+<button onclick="showRandomPage()">Feed ME!!</button>
+
+</body>
+</html>
