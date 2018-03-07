@@ -9,11 +9,16 @@ background-size: 100% 1.2em;
 }
 * {
     font-family: "Courier New", Courier, monospace;
+	font-size: 12pt;
 }
 
 h1 {
 	font-size: 30pt;
 	text-align: center;
+}
+
+em {
+	color: grey;
 }
 
 a:link {
@@ -66,6 +71,12 @@ a:link {
 #second {
     float: left;
 	width: 40%;
+}
+
+#third {
+	margin-left: 75px;
+    float: left;
+	width: 20%;
 }
 	
 #notes li {
