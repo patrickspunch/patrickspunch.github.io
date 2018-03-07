@@ -1,5 +1,5 @@
 body {
-	margin: 50px 0 0 0;
+margin: 50px 80px 0 80px;
 background-color: #fff; 
 background-image: 
 linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
@@ -18,6 +18,22 @@ h1 {
 
 a:link {
     text-decoration: none;
+}
+
+#nobullet {
+	list-style-type: none;
+}
+
+#circle {
+	list-style-type: circle;
+	padding-left: 20px;
+}
+
+.column {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	column-gap: 50px;
 }
 
 .footer {
@@ -44,20 +60,19 @@ a:link {
     overflow: hidden; /* add this to contain floated children */
 }
 #first {
-    margin-left: 80px;
-	margin-right: 80px;
-	width: 20%;
+	width: 30%;
     float:left;
 }
 #second {
     float: left;
+	width: 40%;
 }
 	
 #notes li {
     position: relative;
     width: 300px;
     min-height: 100px;
-    margin: 25px auto;
+    margin: 50px 0;
     padding: 60px 15px 15px 15px;
 	background: yellow;
 	list-style-type: none;
