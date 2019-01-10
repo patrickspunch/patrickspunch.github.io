@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EpicLasa.ga</title>
+<link rel="stylesheet" href="css/style.css">
+<link href='//fonts.googleapis.com/css?family=Reenie+Beanie&amp;subset=latin' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<audio controls autoplay>
+  <source src="sound/FILLERTEXT.mp3" type="audio/mp3">
+</audio>
+
+</head>
+<body>
+
+
+<div id="wrapper">
+
+<div id="first">
+<ul id="nobullet">
+  <li><br></li>
+  <li><br></li>
+  <li><br></li>
+  <li><br></li>
+  <li><br></li>
+</ul>
+
+<ul id="notes">
+<a href="index.html">
+    <li>
+        <p>NOT SATISFIED!!</p>
+    </li>
+</a>
+<img src="img/click.png" style="width:40%">
+</ul>
+</div>
+
+ <div id="second">
+<h1>SHOARMA OVEN DISH!!!<br></h1>
+<img src="img/FILLERTEXT.jpg" alt="FILLERTEXT" width="100%">
+<br><br>
+<div class="column">
+
+
+</div>
+</div>
+
+<div id="third">
+<h1><br></h1>
+<em>All herbs to your own liking, add olive oil or other types of oil/ butter for cooking.</em>
+</div>
+
+</div>
+
+<div class="footer">
+<p>This inspirational website was built by Tim and Mikal, founders of <a href="https://www.youtube.com/user/PatricksPunch">Patrick's Punch</a>.</p>
+</div>
+
+</body>
+</html>
